@@ -1,12 +1,6 @@
-/* CPPS Tracker — live presence + live data (Supabase Realtime)
- *
- * Load order in your HTML:
- *   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
- *   <script src="presence-realtime.js"></script>
- *
- * Then:
- *   Presence.start({ onData: applyRows, people: TEAM_NAMES, page: 'Overview' });
- */
+const SUPABASE_URL = 'https://eggszukiqudidbpdghkh.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_wyHJ-ll0wAskXbJYiWjWLg_4kw4hT4O';
+const TABLE        = 'opportunities';
 
 const Presence = (() => {
 
